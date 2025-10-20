@@ -34,7 +34,7 @@ const Lawyers = () => {
             {/* Desktop Menu */}
             <div className='hidden lg:flex items-center justify-between '>
               <nav className='flex-1 flex justify-center items-center'>
-                <div className='text-lg flex items-center gap-8'>
+                <div className='text-md flex items-center gap-8'>
                   <Link to='/' className='font-semibold hover:text-[#DC1F27] transition-colors'>Practice Area</Link>
                   <Link to='/court' className='font-semibold hover:text-[#DC1F27] transition-colors'>Malir Court</Link>
                   <Link to='/history' className='font-semibold hover:text-[#DC1F27] transition-colors'>Bar History</Link>
@@ -49,11 +49,11 @@ const Lawyers = () => {
 
             <div className='hidden lg:flex gap-4 items-center'>
               <Link to='/register'>
-                <button className='px-8 py-2 bg-[#DC1F27] text-white font-semibold hover:bg-[#b01820] transition-colors'>Register</button>
+                <button className='px-6 py-2 bg-[#DC1F27] text-white font-semibold hover:bg-[#b01820] transition-colors'>Register</button>
               </Link>
 
               <Link to='/login'>
-                <button className='px-8 py-2 bg-[#DC1F27] text-white font-semibold hover:bg-[#b01820] transition-colors'>Login</button>
+                <button className='px-6 py-2 bg-[#DC1F27] text-white font-semibold hover:bg-[#b01820] transition-colors'>Login</button>
 
               </Link>
             </div>
