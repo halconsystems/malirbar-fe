@@ -7,7 +7,7 @@ const History = () => {
   return (
     <div>
 
-      <div className="min-h-screen bg-[url('./hero.png')] bg-cover mb-10 flex flex-col pt-5">
+      <div className="min-h-screen bg-[url('/hero.png')] bg-cover mb-10 flex flex-col pt-5">
 
         {/* Navbar */}
 
@@ -15,7 +15,7 @@ const History = () => {
           <div className='flex justify-between items-center'>
             {/* logo */}
             <div className='flex items-center gap-5'>
-              <img src='./logoicon.png' className='w-8 h-8 lg:w-10 lg:h-10' />
+              <img src='/logoicon.png' className='w-8 h-8 lg:w-10 lg:h-10' />
               <div>
                 <h1 className='text-xl lg:text-3xl font-semibold text-[#DC1F27]'>Malir bar Association</h1>
                 <p className='text-lg lg:text-xl font-semibold text-gray-800'>Sindh Districts Court</p>
@@ -154,7 +154,7 @@ const History = () => {
 
           <div className='mb-8 lg:mb-0 px-4 md:px-0'>
             <img
-              src='./hero-img.png'
+             src='/hero-img.png' 
               className='w-full max-w-[300px] md:max-w-[400px] lg:max-w-none lg:w-auto'
             />
           </div>
@@ -174,14 +174,14 @@ const History = () => {
           <div className='flex  gap-4 md:gap-2 w-full md:w-auto'>
             {/* box 1 */}
             <div className='flex bg-[#E6F9FF] p-4 md:p-5 relative md:bottom-10  text-center flex-col items-center justify-center gap-2 md:gap-5 hover:scale-105 duration-300 transition-all'>
-              <img src='./box1.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box1.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>New Mosque</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>
 
             {/* box 2 */}
             <div className='flex bg-[#FEF2E9] p-4 md:p-5 relative md:bottom-20 text-center flex-col items-center justify-center gap-2 md:gap-3 hover:scale-105 duration-300 transition-all'>
-              <img src='./box3.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box3.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>Practice & Support</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>
@@ -190,14 +190,14 @@ const History = () => {
           <div className='flex  gap-4 md:gap-2 w-full md:w-auto'>
             {/* box 3 */}
             <div className='flex bg-[#FEF2E9] p-4 md:p-5 relative md:bottom-16 md:mt-6  text-center flex-col items-center justify-center gap-2 md:gap-3 hover:scale-105 duration-300 transition-all'>
-              <img src='./box2.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box2.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>New Judicial Complex</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>
 
             {/* box 4 */}
             <div className='flex bg-[#E6F9FF] p-4 md:p-5 relative md:bottom-20  text-center flex-col items-center justify-center gap-2 md:gap-3 hover:scale-105 duration-300 transition-all'>
-              <img src='./box4.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box4.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>Registered Lawyers</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>
@@ -234,7 +234,7 @@ const History = () => {
                 strengthening the legal community of Malir.
               </p>
             </div>
-            <img src='./founder.png' className='w-90 mt-4' />
+            <img src="/founder.png" className='w-90 mt-4' />
           </div>
 
 
@@ -262,7 +262,7 @@ const History = () => {
       </section>
       <div className='flex justify-evenly px-20'>
         <div>
-          <img src='./avatar.png' className='w-26 h-26' />
+          <img src='/avatar.png' className='w-26 h-26' />
           <h1 className='font-semibold text-xl'>Ghullam Mustafa Lakho</h1>
           <p className='text-gray-800'>Vice President</p>
         </div>
@@ -302,7 +302,7 @@ const History = () => {
         <div className='grid grid-cols-3 gap-x-2 px-10h-screen px-10 '>
 
           <div className='w-full flex flex-col gap-3 justify-center shadow-xl px-6 py-10  '>
-            <img src="./icon1.png" alt="" className='w-16 h-16 ' />
+            <img src="/icon1.png" alt="" className='w-16 h-16 ' />
             <h1 className='text-2xl font-semibold'>Disciplinary Committee  </h1>
             <p className='text-gray-700 text-md '>This Committee is responsible for maintaining
               professional integrity & addressing any
@@ -310,7 +310,7 @@ const History = () => {
           </div>
 
           <div className='w-full flex flex-col gap-3 justify-center shadow-xl px-6   py-10'>
-            <img src="./icon2.png" alt="" className='w-16 h-16 ' />
+            <img src="/icon2.png" alt="" className='w-16 h-16 ' />
             <h1 className='text-2xl font-semibold'>Financial Committee</h1>
             <p className='text-gray-700 text-md '>This Committee oversees the management, budgeting
               and proper utilization of the Malir Bar Association’s
@@ -318,7 +318,7 @@ const History = () => {
           </div>
 
           <div className='w-full flex flex-col gap-3 justify-center shadow-xl px-6  py-10 '>
-            <img src="./icon3.png" alt="" className='w-16 h-16 ' />
+            <img src="/icon3.png" alt="" className='w-16 h-16 ' />
             <h1 className='text-2xl font-semibold'>Anti-Toutism Committee</h1>
             <p className='text-gray-700 text-md '>This Committee is dedicated to preventing
               unauthorized practice and ensuring that only
@@ -326,7 +326,7 @@ const History = () => {
           </div>
 
           <div className='w-full flex flex-col gap-3 justify-center shadow-xl px-6   py-10'>
-            <img src="./icon4.png" alt="" className='w-16 h-16 ' />
+            <img src="/icon4.png" alt="" className='w-16 h-16 ' />
             <h1 className='text-2xl font-semibold'>Legal Education Committee</h1>
             <p className='text-gray-700 text-md '>This Committee promotes continuous learning
               by organizing seminars, workshops and training
@@ -334,7 +334,7 @@ const History = () => {
           </div>
 
           <div className='w-full flex flex-col gap-3 justify-center shadow-xl px-6   py-10'>
-            <img src="./icon5.png" alt="" className='w-16 h-16 ' />
+            <img src="/icon5.png" alt="" className='w-16 h-16 ' />
             <h1 className='text-2xl font-semibold'>Human Rights / Legal Aid Committee</h1>
             <p className='text-gray-700 text-md '>This Committee works to protect fundamental rights
               and provide free legal assistance to underprivileged
@@ -342,7 +342,7 @@ const History = () => {
           </div>
 
           <div className='w-full flex flex-col gap-3 justify-center shadow-xl px-6   py-10'>
-            <img src="./icon6.png" alt="" className='w-16 h-16 ' />
+            <img src="/icon6.png" alt="" className='w-16 h-16 ' />
             <h1 className='text-2xl font-semibold'>Conference / Function Committee</h1>
             <p className='text-gray-700 text-md '>This Committee organizes events, seminars
               and official gatherings to foster unity and
@@ -371,14 +371,14 @@ const History = () => {
         <div className='w-lg shadow-lg shadow-[#0A74F340] border-[#0A74F340] flex flex-col px-10 py-5 gap-8'>
 
           <div className='text-center flex flex-col items-center relative pt-10'>
-            <img src="./librarian.png" alt="" className='absolute top-[-90px] w-30' />
+            <img src="/librarian.png" alt="" className='absolute top-[-90px] w-30' />
             <h1 className='font-bold text-xl'>Nazir Ahmed Gorar</h1>
             <p className='text-md'>Librarian Malir Court 2024-2025</p>
             <p className='text-sm'>Advocate High Court, SIndh</p>
           </div>
 
           <div className='border-t border-gray-200 pt-6 flex flex-col gap-2'>
-            <img src="./quote.png" alt="" className='w-6' />
+            <img src="/quote.png" alt="" className='w-6' />
             <p>When I took over the charge, I felt a dire need for digital presence & I decided to develop a platform for my community. I dedicate this initiative to the growth & betterment of the Malir Bar legal community.</p>
           </div>
         </div>
@@ -388,7 +388,7 @@ const History = () => {
         <div className='w-lg shadow-lg shadow-[#0A74F340] border-[#0A74F340] flex flex-col px-10 py-5 gap-8'>
 
           <div className='text-center flex flex-col items-center relative pt-10'>
-            <img src="./ceo.png" alt="" className='absolute top-[-90px] w-30' />
+            <img src="/ceo.png" alt="" className='absolute top-[-90px] w-30' />
             <h1 className='font-bold text-xl'>Raheel Liaquat Malik</h1>
             <p className='text-md'>Group CEO & President
               IAG Group</p>
@@ -396,7 +396,7 @@ const History = () => {
           </div>
 
           <div className='border-t border-gray-200 pt-6 flex flex-col gap-2'>
-            <img src="./quote.png" alt="" className='w-6' />
+            <img src="/quote.png" alt="" className='w-6' />
             <p>We are proud to present this gift to the Malir Bar Association in appreciation of your unwavering dedication & services to the legal community. Your dedication continues to strengthen the principles of justice, unity, and excellence.</p>
           </div>
         </div>

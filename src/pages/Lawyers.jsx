@@ -17,7 +17,7 @@ const Lawyers = () => {
   return (
 
     <ErrorBoundary>
-      <div className="min-h-screen bg-[url('./hero.png')] bg-cover mb-10 flex flex-col pt-5">
+      <div className="min-h-screen bg-[url('/hero.png')] bg-cover mb-10 flex flex-col pt-5">
 
         {/* Navbar */}
 
@@ -25,7 +25,7 @@ const Lawyers = () => {
           <div className='flex justify-between items-center'>
             {/* logo */}
             <div className='flex items-center gap-5'>
-              <img src='./logoicon.png' className='w-8 h-8 lg:w-10 lg:h-10' />
+              <img src='/logoicon.png' className='w-8 h-8 lg:w-10 lg:h-10' />
               <div>
                 <h1 className='text-xl lg:text-3xl font-semibold text-[#DC1F27]'>Malir bar Association</h1>
                 <p className='text-lg lg:text-xl font-semibold text-gray-800'>Sindh Districts Court</p>
@@ -164,7 +164,7 @@ const Lawyers = () => {
 
           <div className='mb-8 lg:mb-0 px-4 md:px-0'>
             <img
-              src='./hero-img.png'
+              src='/hero-img.png'
               className='w-full max-w-[300px] md:max-w-[400px] lg:max-w-none lg:w-auto'
             />
           </div>
@@ -184,14 +184,14 @@ const Lawyers = () => {
           <div className='flex  gap-4 md:gap-2 w-full md:w-auto'>
             {/* box 1 */}
             <div className='flex bg-[#E6F9FF] p-4 md:p-5 relative md:bottom-10  text-center flex-col items-center justify-center gap-2 md:gap-5 hover:scale-105 duration-300 transition-all'>
-              <img src='./box1.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box1.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>New Mosque</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>
 
             {/* box 2 */}
             <div className='flex bg-[#FEF2E9] p-4 md:p-5 relative md:bottom-20 text-center flex-col items-center justify-center gap-2 md:gap-3 hover:scale-105 duration-300 transition-all'>
-              <img src='./box3.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box3.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>Practice & Support</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>
@@ -200,14 +200,14 @@ const Lawyers = () => {
           <div className='flex  gap-4 md:gap-2 w-full md:w-auto'>
             {/* box 3 */}
             <div className='flex bg-[#FEF2E9] p-4 md:p-5 relative md:bottom-16 md:mt-6  text-center flex-col items-center justify-center gap-2 md:gap-3 hover:scale-105 duration-300 transition-all'>
-              <img src='./box2.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box2.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>New Judicial Complex</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>
 
             {/* box 4 */}
             <div className='flex bg-[#E6F9FF] p-4 md:p-5 relative md:bottom-20  text-center flex-col items-center justify-center gap-2 md:gap-3 hover:scale-105 duration-300 transition-all'>
-              <img src='./box4.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box4.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>Registered Lawyers</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>

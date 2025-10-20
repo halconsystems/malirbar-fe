@@ -7,7 +7,7 @@ const GeneralBody = () => {
     <div className='flex flex-col '>
 
 
-      <div className="min-h-screen bg-[url('./hero.png')] bg-cover mb-10 flex flex-col pt-5">
+      <div className="min-h-screen bg-[url('/hero.png')] bg-cover mb-10 flex flex-col pt-5">
 
         {/* Navbar */}
 
@@ -15,7 +15,7 @@ const GeneralBody = () => {
           <div className='flex justify-between items-center'>
             {/* logo */}
             <div className='flex items-center gap-5'>
-              <img src='./logoicon.png' className='w-8 h-8 lg:w-10 lg:h-10' />
+              <img src='/logoicon.png' className='w-8 h-8 lg:w-10 lg:h-10' />
               <div>
                 <h1 className='text-xl lg:text-3xl font-semibold text-[#DC1F27]'>Malir bar Association</h1>
                 <p className='text-lg lg:text-xl font-semibold text-gray-800'>Sindh Districts Court</p>
@@ -154,7 +154,7 @@ const GeneralBody = () => {
 
           <div className='mb-8 lg:mb-0 px-4 md:px-0'>
             <img
-              src='./hero-img.png'
+              src='/hero-img.png'
               className='w-full max-w-[300px] md:max-w-[400px] lg:max-w-none lg:w-auto'
             />
           </div>
@@ -174,7 +174,7 @@ const GeneralBody = () => {
           <div className='flex  gap-4 md:gap-2 w-full md:w-auto'>
             {/* box 1 */}
             <div className='flex bg-[#E6F9FF] p-4 md:p-5 relative md:bottom-10  text-center flex-col items-center justify-center gap-2 md:gap-5 hover:scale-105 duration-300 transition-all'>
-              <img src='./box1.png' className='w-12 h-12 md:w-16 md:h-16' />
+              <img src='/box1.png' className='w-12 h-12 md:w-16 md:h-16' />
               <h1 className='text-xl md:text-2xl font-semibold'>New Mosque</h1>
               <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Est sapien curabitur.</p>
             </div>
@@ -214,7 +214,7 @@ const GeneralBody = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-10'>
          <div className='w-full flex flex-col justify-center shadow-xl px-6 h-80'>
-          <img src="./president.png" alt="" className='w-26' />
+          <img src="/president.png" alt="" className='w-26' />
           <h1 className='text-xl font-semibold  mt-4'>Advocate Irshad Ali Shar</h1>
           <p className='text-lg font-semibold '>President</p>
           <p className='text-gray-700 text-sm  mt-2'>A seasoned legal professional known for his
@@ -223,7 +223,7 @@ const GeneralBody = () => {
         </div>
 
           <div className='w-full flex flex-col justify-center shadow-xl px-6 h-80'>
-            <img src="./vice.png" alt="" className='w-26' />
+            <img src="/vice.png" alt="" className='w-26' />
             <h1 className='text-xl font-semibold'>Advocate Akram Qureshi</h1>
             <p className='text-lg font-semibold'>Vice President</p>
             <p className='text-gray-700 text-sm'>An energetic and committed professional
@@ -233,7 +233,7 @@ const GeneralBody = () => {
 
 
           <div className='w-full flex flex-col justify-center shadow-xl px-6 h-80'>
-            <img src="./general.png" alt="" className='w-26' />
+            <img src="/general.png" alt="" className='w-26' />
             <h1 className='text-xl font-semibold'>Advocate Ayaz Ali Chandio</h1>
             <p className='text-lg font-semibold'>General Secretary</p>
             <p className='text-gray-700 text-sm'>An energetic and committed professional
@@ -242,7 +242,7 @@ const GeneralBody = () => {
           </div>
 
           <div className='w-full flex flex-col justify-center shadow-xl px-6 h-80'>
-            <img src="./joint.png" alt="" className='w-26' />
+            <img src="/joint.png" alt="" className='w-26' />
             <h1 className='text-xl font-semibold'>Advocate Asadullah Bhanbharo</h1>
             <p className='text-lg font-semibold'>Joint Secretary</p>
             <p className='text-gray-700 text-sm'>A passionate legal professional dedicated to
@@ -251,7 +251,7 @@ const GeneralBody = () => {
           </div>
 
           <div className='w-full flex flex-col justify-center shadow-xl px-6 h-80'>
-            <img src="./treasurer.png" alt="" className='w-26' />
+            <img src="/treasurer.png" alt="" className='w-26' />
             <h1 className='text-xl font-semibold'>Advocate Asma Mohsin</h1>
             <p className='text-lg font-semibold'>treasurer</p>
             <p className='text-gray-700 text-sm'>A diligent professional known for her integrity,
@@ -260,7 +260,7 @@ const GeneralBody = () => {
           </div>
 
           <div className='w-full flex flex-col justify-center shadow-xl px-6 h-80'>
-            <img src="./librarian.png" alt="" className='w-26' />
+            <img src="/librarian.png" alt="" className='w-26' />
             <h1 className='text-xl font-semibold'>Advocate Nazeer Ahmed Gorar</h1>
             <p className='text-lg font-semibold'>librarian</p>
             <p className='text-gray-700 text-sm'>A devoted professional committed to enhancing
